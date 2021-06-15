@@ -22,12 +22,13 @@ get_header(); ?>
      height: 60vh;">
 
         <div class="content-middle text-white text-center">
-            <h1 class="text-5xl mb-5">- Happy Fathers Day! -</h1>
-            <h2 class="text-3xl mb-5">From Foothills Church</h2>
+            <h1 class="text-6xl mb-2"><span class = "hidden md:inline">-</span> Happy Fathers Day! <span class = "hidden md:inline">-</span></h1>
+            <h2 class="text-2xl mb-2">From Foothills Church</h2>
             <i class="text-2xl fas fa-hammer"></i>
-
         </div>
     </div>
+
+
 
 
 <?php
