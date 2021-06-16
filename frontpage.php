@@ -17,7 +17,7 @@ get_header(); ?>
     <div class="bg-no-repeat bg-scroll bg-cover relative" style="background: linear-gradient(
       rgba(0, 0, 0, 0.15),
       rgba(0, 0, 0, 0.15)
-    ), url(http://fathers-day.local/wp-content/uploads/2021/06/Test-Gradient.jpg);
+    ), url(http://fathers-day.local/wp-content/uploads/2021/06/FD_bg.png);
      background-position: center center;
      height: 60vh;">
 
@@ -75,6 +75,14 @@ get_header(); ?>
         <label for="tabone">9AM</label>
         <div class="tab">
 
+            <div class="m-4 md:m-10 lg:max-w-4xl lg:text-center lg:mx-auto max-w-2xl">
+                <div class="grid grid-cols-12 gap-4">
+                    <div class="col-span-12 md:col-span-6 lg:col-span-4">
+                        <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" alt="">
+                        <div class = "text-left pt-2"><i class="fas fa-download"></i> Click to Download</div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
@@ -82,13 +90,28 @@ get_header(); ?>
         <label for="tabtwo">In Between</label>
         <div class="tab">
 
+            <div class="m-4 md:m-10 lg:max-w-4xl lg:text-center lg:mx-auto max-w-2xl">
+                <div class="grid grid-cols-12 gap-4">
+                    <div class="col-span-12 md:col-span-6 lg:col-span-4">
+                        <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" alt="">
+                        <div class = "text-left pt-2"><i class="fas fa-download"></i> Click to Download</div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
         <input type="radio" name="tabs" id="tabthree">
         <label for="tabthree">11AM</label>
         <div class="tab">
-
+            <div class="m-4 md:m-10 lg:max-w-4xl lg:text-center lg:mx-auto max-w-2xl">
+                <div class="grid grid-cols-12 gap-4">
+                    <div class="col-span-12 md:col-span-6 lg:col-span-4">
+                        <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" alt="">
+                        <div class = "text-left pt-2"><i class="fas fa-download"></i> Click to Download</div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
