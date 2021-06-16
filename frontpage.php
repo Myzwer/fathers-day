@@ -85,14 +85,11 @@ get_header(); ?>
                         // Begin looping data
                         while (have_rows('9am_gallery')) : the_row();
                             ?>
-
                             <div class="col-span-12 md:col-span-6 lg:col-span-4">
                                 <img src="<?php the_sub_field('image');?>"
                                      alt="Father's Day Photo - 9am">
                                 <a href="<?php the_sub_field('image');?>" download><div class="text-left pt-2"><i class="fas fa-download"></i> Click to Download</div></a>
-
                             </div>
-
                         <?php
                         endwhile;
                     else :
@@ -111,11 +108,25 @@ get_header(); ?>
 
             <div class="m-4 md:m-10 lg:max-w-4xl lg:text-center lg:mx-auto max-w-2xl">
                 <div class="grid grid-cols-12 gap-4">
-                    <div class="col-span-12 md:col-span-6 lg:col-span-4">
-                        <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80"
-                             alt="">
-                        <div class="text-left pt-2"><i class="fas fa-download"></i> Click to Download</div>
-                    </div>
+                    <?php
+                    // Start the Repeater Loop
+                    if (have_rows('in_betweener_gallery')):
+                        // Card Start
+                        // Begin looping data
+                        while (have_rows('in_betweener_gallery')) : the_row();
+                            ?>
+                            <div class="col-span-12 md:col-span-6 lg:col-span-4">
+                                <img src="<?php the_sub_field('image');?>"
+                                     alt="Father's Day Photo - 9am">
+                                <a href="<?php the_sub_field('image');?>" download><div class="text-left pt-2"><i class="fas fa-download"></i> Click to Download</div></a>
+                            </div>
+                        <?php
+                        endwhile;
+                    else :
+                        // no rows found
+                    endif;
+                    ?>
+
                 </div>
             </div>
 
@@ -126,11 +137,25 @@ get_header(); ?>
         <div class="tab">
             <div class="m-4 md:m-10 lg:max-w-4xl lg:text-center lg:mx-auto max-w-2xl">
                 <div class="grid grid-cols-12 gap-4">
-                    <div class="col-span-12 md:col-span-6 lg:col-span-4">
-                        <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80"
-                             alt="">
-                        <div class="text-left pt-2"><i class="fas fa-download"></i> Click to Download</div>
-                    </div>
+                    <?php
+                    // Start the Repeater Loop
+                    if (have_rows('11am_gallery')):
+                        // Card Start
+                        // Begin looping data
+                        while (have_rows('11am_gallery')) : the_row();
+                            ?>
+                            <div class="col-span-12 md:col-span-6 lg:col-span-4">
+                                <img src="<?php the_sub_field('image');?>"
+                                     alt="Father's Day Photo - 9am">
+                                <a href="<?php the_sub_field('image');?>" download><div class="text-left pt-2"><i class="fas fa-download"></i> Click to Download</div></a>
+                            </div>
+                        <?php
+                        endwhile;
+                    else :
+                        // no rows found
+                    endif;
+                    ?>
+
                 </div>
             </div>
 
