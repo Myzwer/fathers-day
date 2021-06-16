@@ -70,6 +70,30 @@ get_header(); ?>
         </div>
     </div>
 
+    <div class="tabs">
+        <input type="radio" name="tabs" id="tabone" checked="checked">
+        <label for="tabone">9AM</label>
+        <div class="tab">
+
+
+        </div>
+
+        <input type="radio" name="tabs" id="tabtwo">
+        <label for="tabtwo">In Between</label>
+        <div class="tab">
+
+
+        </div>
+
+        <input type="radio" name="tabs" id="tabthree">
+        <label for="tabthree">11AM</label>
+        <div class="tab">
+
+
+        </div>
+    </div>
+
+
 
 <?php
 get_footer();
