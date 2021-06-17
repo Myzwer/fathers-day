@@ -46,27 +46,27 @@ get_header(); ?>
     <div class="m-4 md:m-10 lg:max-w-4xl lg:text-center lg:mx-auto max-w-2xl">
         <div class="grid grid-cols-12 gap-4">
             <div class="col-span-12 p-5">
-                <h2 class="text-2xl mb-2 uppercase">How to access your photos</h2>
+                <h2 class="text-2xl text-center mb-2 uppercase">How to access your photos</h2>
             </div>
-            <div class="col-span-12 md:col-span-4">
+            <div class="col-span-12 md:col-span-4 mb-7">
                 <h3 class="text-4xl mb-5 text-center mx-2">1</h3>
                 <hr>
-                <h4 class="text-2xl mt-3 capitalize text-left mx-2 font-black">Select Your Service</h4>
-                <p class="mx-2 text-left">Click the tabs below to filter what service you had your photo taken at.</p>
+                <h4 class="text-2xl mt-3 capitalize text-center md:text-left mx-2 font-black">Select Your Service</h4>
+                <p class="mx-2 text-center md:text-left">Click the tabs below to filter what service you had your photo taken at.</p>
             </div>
 
-            <div class="col-span-12 md:col-span-4">
+            <div class="col-span-12 md:col-span-4 mb-7">
                 <h3 class="text-4xl mb-5 text-center mx-2">2</h3>
                 <hr>
-                <h4 class="text-2xl mt-3 capitalize text-left mx-2 font-black">Download Your Photo</h4>
-                <p class="mx-2 text-left">Find your photo from the list below and click the download button!</p>
+                <h4 class="text-2xl mt-3 capitalize text-center md:text-left mx-2 font-black">Download Your Photo</h4>
+                <p class="mx-2 text-center md:text-left">Find your photo from the list below and click the download button!</p>
             </div>
 
-            <div class="col-span-12 md:col-span-4">
+            <div class="col-span-12 md:col-span-4 mb-7">
                 <h3 class="text-4xl mb-5 text-center mx-2">3</h3>
                 <hr>
-                <h4 class="text-2xl mt-3 capitalize text-left mx-2 font-black">Share them on Socials</h4>
-                <p class="mx-2 text-left">Tag us @foothillschurchtn on Instagram and Facebook!</p>
+                <h4 class="text-2xl mt-3 capitalize text-center md:text-left mx-2 font-black">Share them on Socials</h4>
+                <p class="mx-2 text-center md:text-left">Tag us @foothillschurchtn on Instagram and Facebook!</p>
             </div>
         </div>
     </div>
@@ -93,13 +93,15 @@ get_header(); ?>
                         <?php
                         endwhile;
                     else :
-                        // no rows found
+                        ?>
+
+                    <?php
                     endif;
                     ?>
 
                 </div>
             </div>
-
+            <h4 class = "text-center font-black text-2xl mb-10">No photos yet. Check back soon!</h4>
         </div>
 
         <input type="radio" name="tabs" id="tabtwo">
@@ -129,7 +131,7 @@ get_header(); ?>
 
                 </div>
             </div>
-
+            <h4 class = "text-center font-black text-2xl mb-10">No photos yet. Check back soon!</h4>
         </div>
 
         <input type="radio" name="tabs" id="tabthree">
@@ -158,7 +160,7 @@ get_header(); ?>
 
                 </div>
             </div>
-
+            <h4 class = "text-center font-black text-2xl mb-10">No photos yet. Check back soon!</h4>
         </div>
     </div>
 
