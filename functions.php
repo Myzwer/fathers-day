@@ -282,9 +282,12 @@ add_action( 'init', 'register_col_2' );
 //********************* FONTS *************************
 //*****************************************************
 
-//Ruda Registiona
-wp_register_style( 'ruda_font', 'https://fonts.googleapis.com/css2?family=Ruda:wght@400;700;900' );
-wp_enqueue_style('ruda_font');
+//Ruda Registration
+wp_register_style( 'Archvio_font', 'https://fonts.googleapis.com/css2?family=Archivo+Black' );
+wp_enqueue_style('Archvio_font');
+
+wp_register_style( 'Poppins_font', 'https://fonts.googleapis.com/css2?family=Poppins' );
+wp_enqueue_style('Poppins_font');
 
 
 
