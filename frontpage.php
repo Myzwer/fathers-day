@@ -17,7 +17,7 @@ get_header(); ?>
     <div class="bg-no-repeat bg-scroll bg-cover relative" style="background: linear-gradient(
       rgba(0, 0, 0, 0.15),
       rgba(0, 0, 0, 0.15)
-    ), url(http://fathers-day.local/wp-content/uploads/2021/06/FD_bg.png);
+    ), url(<?php the_field('background_image');?>);
      background-position: center center;
      height: 60vh;">
 
